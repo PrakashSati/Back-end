@@ -1,0 +1,64 @@
+{
+    "user": {
+      "id": 12345,
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com",
+      "age": 29,
+      "active": true,
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "postal_code": "12345"
+      },
+      "phone_numbers": [
+        {
+          "type": "mobile",
+          "number": "+1-800-123-4567"
+        },
+        {
+          "type": "home",
+          "number": "+1-800-987-6543"
+        }
+      ],
+      "preferences": {
+        "newsletter_subscribed": true,
+        "theme": "dark",
+        "language": "en"
+      },
+      "friends": [
+        {
+          "id": 67890,
+          "name": "Alice Smith",
+          "relationship": "friend"
+        },
+        {
+          "id": 11223,
+          "name": "Bob Johnson",
+          "relationship": "colleague"
+        }
+      ]
+    },
+    "order_history": [
+      {
+        "order_id": 98765,
+        "product_name": "Laptop",
+        "quantity": 1,
+        "price": 999.99,
+        "order_date": "2025-02-01"
+      },
+      {
+        "order_id": 54321,
+        "product_name": "Headphones",
+        "quantity": 2,
+        "price": 49.99,
+        "order_date": "2025-01-15"
+      }
+    ],
+    "preferences": {
+      "receive_notifications": true,
+      "show_ads": false
+    }
+  }
+  
